@@ -43,13 +43,10 @@
                                         <td> :</td>
                                         <td> <span ><?= $bukutoday['status'] ?></span></td>
                                     </tr>
-                                    <tr>
-                                        <th> Deskripsi</th>
-                                        <td> :</td>
-                                        <td> <span ><?= $bukutoday['deskripsi'] ?></span></td>
-                                    </tr>
                                 </table>
                             </div>
+                            <h2 class="text-center"> Deskripsi </h2>
+                            <p><?= $bukutoday['deskripsi'] ?></p>
                         </div>
 
                     </div>
